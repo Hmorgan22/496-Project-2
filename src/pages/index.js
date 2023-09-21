@@ -1,4 +1,5 @@
 import * as React from "react"
+import ocean from "../images/Ocean.jpg"
 
 const pageStyles = {
   color: "#232129",
@@ -7,8 +8,8 @@ const pageStyles = {
 }
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
+  marginBottom: 30,
+  maxWidth: 500,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -33,7 +34,6 @@ const linkStyle = {
   fontSize: 16,
   verticalAlign: "5%",
 }
-
 
 const descriptionStyle = {
   color: "#232129",
@@ -97,8 +97,9 @@ const IndexPage = () => {
       </h1>
       <p style={paragraphStyles}>
         This site helps you see images of different popular vaction locations in the United States. That way you can remove the pressure of finding the perfect vacation spot and get going!
-        Click on the state name to see some popular vacation ideas for that state.
       </p>
+      <img src={ocean} width={1270} height={250} alt="Stock ocean image." />
+      <p style={paragraphStyles}>Click on the state name to see some popular vacation ideas for that state.</p>
       <ul style={listStyles}>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
