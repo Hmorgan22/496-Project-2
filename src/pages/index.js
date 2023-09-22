@@ -96,7 +96,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>Welcome to Vacation Ideas!</span>
       </h1>
       <p style={paragraphStyles}>
-        This site helps you see images of different popular vaction locations in the United States. That way you can remove the pressure of finding the perfect vacation spot and get going!
+        This site helps you to view different popular vaction locations in the United States. That way you can remove the pressure of finding the perfect vacation spot and get going!
       </p>
       <img src={ocean} width={1270} height={250} alt="Stock ocean image." />
       <p style={paragraphStyles}>Click on the state name to see some popular vacation ideas for that state.</p>
